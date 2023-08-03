@@ -17,29 +17,32 @@
     </style>
 </head>
 <body>
-    <table>
+    <table border="1" width="100%">
+        <col style="width:30%">
+        <col style="width:30%">
+        <col style="width:40%">
         <thead> 
             <tr>
-                <th colspan="5" width="30" style="background-color: rgb(155, 170, 249); padding: 20px;">MY FIRST TABLE</th>
+                <th colspan="3" style="background-color: rgb(155, 170, 249); padding: 20px;">MY FIRST TABLE</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td width="20" style="background-color: rgb(155, 170, 249); padding: 20px; text-align: center;">First cell</td>
                 <td width="20" style="background-color: rgb(155, 170, 249); text-align: center; padding: 20px;">Second cell</td>
-                <td rowspan="3" colspan="3" style="background-color: yellow; text-align: center; padding: 100px 10px">6 cells merged together</td>
+                <td width="40" rowspan="3" style="background-color: yellow; text-align: center; vertical-align: center; padding: 40px 60px">6 cells merged together</td>
             </tr>
              <tr>
-                <td colspan="2" width="20" style="background-color: yellow; padding: 20px 20px; text-align: center;">2 cells merged into one</td>
+                <td colspan="2" width="40" style="background-color: yellow; padding: 20px; text-align: center;">2 cells merged into one</td>
             </tr>
             <tr>
-                <td width="20" style="background-color: yellow; text-align: center; padding: 5px 40px;">1st cell 3rd row</td>
-                <td width="20" style="background-color: yellow; text-align: center; padding: 5px 40px;">2nd cell 3rd row</td>
+                <td width="20" style="background-color: yellow; text-align: center; padding: 10px 40px;">1st cell <br>3rd row</td>
+                <td width="20" style="background-color: yellow; text-align: center; padding: 10px 40px;">2nd cell <br>3rd row</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
-                <td colspan="5" style="background-color: yellow; padding: 20px; text-align: center;">Do you like tables?</td>
+                <td colspan="3" style="background-color: yellow; padding: 20px; text-align: center;">Do you like tables?</td>
             </tr>
         </tfoot>
     </table>
